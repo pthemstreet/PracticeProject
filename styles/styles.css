@@ -1,0 +1,97 @@
+.nav-header-main {
+  margin: 0;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-header-main ul {
+  list-style: none;
+}
+
+.nav-header-main li {
+  display: inline;
+}
+
+.nav-header-main a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 15px 15px 15px;
+  width: auto;
+}
+
+.header-login {
+  display: flex;
+  padding: 15px 15px 0 0;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.wrapper-main {
+  margin: auto;
+  width: 80%;
+  margin-top: 20px;
+  border: 3px solid black;
+  padding: 50px;
+}
+
+.signupsuccess {
+  text-align: center;
+  color: green;
+}
+
+.signuperror {
+  text-align: center;
+  color: red;
+}
+
+.signup-header {
+  text-align: center;
+}
+
+.form-signup {
+  text-align: center;
+  display: block;
+}
+
+.login-status {
+  text-align: center;
+}
+
+body {
+  background-image: url("http://www.allwhitebackground.com/images/5/Cool-Texture-Background-Photos.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+input[type="text"] {
+  width: min-content;
+  box-sizing: border-box;
+}
+input[type="password"] {
+  width: min-content;
+  box-sizing: border-box;
+}
+input[type="text"]:focus {
+  width: min-content;
+  border: 3px solid #555;
+  background-color: lightblue;
+  box-sizing: border-box;
+}
+input[type="password"]:focus {
+  width: min-content;
+  border: 3px solid #555;
+  background-color: lightblue;
+  box-sizing: border-box;
+}
+.form-input {
+  margin-top: 5px;
+}
