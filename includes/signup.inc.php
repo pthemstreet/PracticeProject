@@ -9,6 +9,7 @@ if (isset($_POST['signup-submit'])) {
     $passwordRepeat = $_POST['pwd-repeat'];
     $firstName = $_POST['fName'];
     $lastName = $_POST['lName'];
+    
     #error checks
     if (empty($userName) || empty($email) || empty($password) || empty($passwordRepeat)) {                  #EMPTY FIELDS
         header("Location: ../signup.php?error=emptyfields&uid=".$userName."&mail=".$email);
