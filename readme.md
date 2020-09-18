@@ -1,4 +1,5 @@
 Author: Philamon Hemstreet
+
 Contact Me:
 
 - pthemstreet@crimson.ua.edu
@@ -43,5 +44,5 @@ This file handles the login process which includes checking parameters (such as 
 /includes/logout.inc.php:
 This file unsets local values and destroys the session. There is no check here to see if it was navigated to on purpose because it is meant for logging out.
 
-/includes/signup.inc.php
+/includes/signup.inc.php:
 This file first ensures that you clicked the "signup-signup" button to get here. It then retrieves all of the local variables sent from signup.php. It checks these inputs for errors (pre-existing username/email, empty fields, etc.) and will return the user to signup.php with an error message if there is an error somewhere. It checks the inputs for SQL injections then ensures that the SQL statement created is valid. If all the checks are passed, the password is hashed using the PASSWORD_DEFAULT hashing algorithm and passes the SQL statement to the database and closes the connection.
